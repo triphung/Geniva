@@ -9,10 +9,6 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 
@@ -21,12 +17,23 @@ h1 {
 	text-align: center;
 }
 
+.buffer {
+	height: 50px;
+}
 .btn {
 	width: 150px;
 	height: 50px;
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
 }
 
 .btn:hover {
 	box-shadow: 2px 2px 3px red;
+}
+
+hr {
+	border-color: white;
+	max-width: 200px;
 }
 
